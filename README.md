@@ -232,3 +232,6 @@ Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya)) and
 [demo]: http://demo.reactstarterkit.com
 [node]: https://nodejs.org
 [chat]: https://gitter.im/kriasoft/react-starter-kit
+=======
+# take-home
+>>>>>>> 8205882fce652a99ca43fdfd67e173fd76736d90
