@@ -15,5 +15,3 @@ Behavior:
 
 Testing:
 - At root level, run yarn test
-
-Refer to https://github.com/kriasoft/react-starter-kit for more details.
