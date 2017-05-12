@@ -12,9 +12,10 @@
 
 import React from 'react';
 import { expect } from 'chai';
-import { render } from 'enzyme';
+import { render, shallow } from 'enzyme';
 import App from '../App';
 import Layout from './Layout';
+import Footer from '../Footer';
 
 describe('Layout', () => {
 
