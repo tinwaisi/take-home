@@ -1,0 +1,33 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+.root {
+  float: right;
+  margin: 6px 0 0;
+}
+
+.card{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    background: #f6f6f6;
+    box-shadow: 0 20px 20px rgba(0,0,0,.09);
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    cursor: pointer;
+}
+.card:hover{
+    background: white;
+    box-shadow: 0 40px 40px rgba(0,0,0,.16);
+    transform: translate(0,-20px);
+    transition-delay: 0s !important;
+}
+.thumbnail{
+    width: 100%;
+}

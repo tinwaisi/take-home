@@ -28,7 +28,7 @@ import models from './data/models';
 import schema from './data/schema';
 import assets from './assets.json'; // eslint-disable-line import/no-unresolved
 import config from './config';
-
+var api = require('./data/api.js');
 const app = express();
 
 //
@@ -83,6 +83,7 @@ app.get('/login/facebook/return',
   },
 );
 
+app.get('/api/movies', api.getMovies);
 //
 // Register API middleware
 // -----------------------------------------------------------------------------
